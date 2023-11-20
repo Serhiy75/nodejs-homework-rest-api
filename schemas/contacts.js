@@ -1,5 +1,5 @@
 const Joi = require("joi");
-const { emailValidator } = require("../constans/contact-constans");
+const { emailValidator } = require("../constants/contact-constants");
 
 const contactAddSchema = Joi.object({
   name: Joi.string().required().messages({
