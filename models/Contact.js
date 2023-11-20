@@ -1,6 +1,6 @@
 const { Schema, model } = require("mongoose");
 const { handleValidateError, runUpdateValidators } = require("./hooks");
-const { emailValidator } = require("../constans/contact-constans");
+const { emailValidator } = require("../constants/contact-constants");
 
 const contactSchema = new Schema(
   {
